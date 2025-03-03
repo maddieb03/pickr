@@ -1,11 +1,11 @@
 import streamlit as st
 
-st.set_page_config(page_title="Log in bleh")
+st.set_page_config(page_title="Log in", page_icon="👤")
 
 
 st.markdown('<div class="gray-box">', unsafe_allow_html=True)  # Start the gray box
 
-st.subheader("Log in")  # Title inside the box
+st.subheader("👤 Log in")  # Title inside the box
 st.caption("Logging in retrieves your data and preferences from your previous visits for a more personalized experience.")
 
 

@@ -2,8 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Home", page_icon="🏠")
 
-st.sidebar.title("Navigation")  # Sidebar title
-page = st.sidebar.radio("Go to", ["Home", "About", "Login", "Music", "Movies"])
+st.markdown("<h3 style='text-align: center;'>Welcome to</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Pickr</h1>", unsafe_allow_html=True)
 
-st.title("Welcome")  # Home Page Title
-st.write("This is the main page of the app.")
+#add pic of logo here
