@@ -2,6 +2,20 @@ import streamlit as st
 
 st.set_page_config(page_title="About", page_icon="ℹ️")
 
+# changing background color to same as HOME page
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: linear-gradient(to right, #6ed6c3ff, #32627dff);
+        border: 5px solid black;
+        padding: 20px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.title("ℹ️ What is Pickr?")
 
 
